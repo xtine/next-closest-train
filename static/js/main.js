@@ -1,0 +1,2 @@
+// Custom Rail JavaScript
+
