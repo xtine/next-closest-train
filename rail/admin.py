@@ -1,6 +1,4 @@
 from django.contrib import admin
 
-# Register your models here.
-# Example:
-# from .models import MyModel
-# admin.site.register(MyModel)
+from .models import rail_lines
+admin.site.register(rail_lines)

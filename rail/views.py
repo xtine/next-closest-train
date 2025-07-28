@@ -1,16 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def index(request):
-    context = {
-        'title': '',
-        'message': 'Welcome to your Django app!'
-    }
-    return render(request, 'index.html', context)
+from .models import rail_lines
 
-def about(request):
-    context = {
-        'title': 'About',
-        'message': 'This is the about page.'
-    }
-    return render(request, 'about.html', context)
+def index(request):
+    lines = rail_lines.objects.order_by("route_code")
+
+    return render(request, 'index.html', {'lines': lines})
+
