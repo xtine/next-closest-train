@@ -3,7 +3,7 @@
 // https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API/Using_the_Geolocation_API#examples
 //
 
-function geoFindMe() {
+function geolocateUser() {
   const status = document.querySelector("#user-location-status");
   const mapLink = document.querySelector("#map-link");
 
@@ -11,14 +11,33 @@ function geoFindMe() {
   mapLink.textContent = "";
 
   function success(position) {
-    const latitude = position.coords.latitude;
-    const longitude = position.coords.longitude;
+
+    const coordinates = {
+        lat: position.coords.latitude,
+        lon: position.coords.longitude,
+        lat_short: Number((position.coords.latitude).toFixed(2)),
+        lon_short: Number((position.coords.longitude).toFixed(2))
+    }
+
+    const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
 
     status.textContent = "";
 
-    mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
+    mapLink.href = `https://www.openstreetmap.org/#map=18/${coordinates.lat}/${coordinates.lon}`;
 
-    mapLink.textContent = `Your coordinates: ${Number((latitude).toFixed(2))} °, ${Number((longitude).toFixed(2))} °`;
+    mapLink.textContent = `Your coordinates: ${coordinates.lat_short} °, ${coordinates.lon_short} °`;
+
+    // send coordinates to view to grab nearest station
+    // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+    //
+    fetch('/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': csrftoken
+        },
+        body: JSON.stringify(coordinates)
+    })
   }
 
   function error() {
@@ -33,4 +52,4 @@ function geoFindMe() {
   }
 }
 
-document.querySelector("#user-location").addEventListener("click", geoFindMe);
+document.querySelector("#user-location").addEventListener("click", geolocateUser);
