@@ -1,1 +1,12 @@
 /* Rail site styles */
+
+ .container {
+    width: 600px;
+    padding: 25px;
+    margin: auto;
+ }
+
+ footer {
+    border-top: 1px dotted #ccc;
+    padding: 0 10px;
+ }

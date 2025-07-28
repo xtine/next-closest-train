@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Where's my train? {% block title %}{% endblock %}</title>
     {% load static %}
+    <link rel="stylesheet" href="{% static 'css/uswds.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
@@ -15,9 +16,7 @@
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 a project by xtine.</p>
-        </div>
+        <p>&copy; 2025 a project by xtine.</p>
     </footer>
 
     <script src="{% static 'js/main.js' %}"></script>
