@@ -21,3 +21,15 @@ class rail_lines(models.Model):
 
     def __str__(self):
         return self.route_code
+
+class station(models.Model):
+    stop_name = models.CharField(max_length=100)
+    stop_lat = models.DecimalField(max_digits=9, decimal_places=6)
+    stop_lon = models.DecimalField(max_digits=9, decimal_places=6)
+    parent_station = models.IntegerField()
+    tpis_name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.stop_name
+
+

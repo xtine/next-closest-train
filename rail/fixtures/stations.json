@@ -1,6 +1,6 @@
 [
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80101,
     "fields": {
       "stop_name": "Downtown Long Beach Station",
@@ -11,7 +11,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80102,
     "fields": {
       "stop_name": "Pacific Ave Station",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80105,
     "fields": {
       "stop_name": "Anaheim Street Station",
@@ -33,7 +33,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80106,
     "fields": {
       "stop_name": "Pacific Coast Hwy Station",
@@ -44,7 +44,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80107,
     "fields": {
       "stop_name": "Willow Street Station",
@@ -55,7 +55,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80108,
     "fields": {
       "stop_name": "Wardlow Station",
@@ -66,7 +66,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80109,
     "fields": {
       "stop_name": "Del Amo Station",
@@ -77,7 +77,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80110,
     "fields": {
       "stop_name": "Artesia Station",
@@ -88,7 +88,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80111,
     "fields": {
       "stop_name": "Compton Station",
@@ -99,7 +99,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80112,
     "fields": {
       "stop_name": "Willowbrook - Rosa Parks Station - Metro A-Line",
@@ -110,7 +110,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80113,
     "fields": {
       "stop_name": "103rd Street / Watts Towers  Station",
@@ -121,7 +121,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80114,
     "fields": {
       "stop_name": "Firestone Station",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80115,
     "fields": {
       "stop_name": "Florence Station",
@@ -143,7 +143,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80116,
     "fields": {
       "stop_name": "Slauson Station",
@@ -154,7 +154,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80117,
     "fields": {
       "stop_name": "Vernon Station",
@@ -165,7 +165,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80118,
     "fields": {
       "stop_name": "Washington Station",
@@ -176,7 +176,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80119,
     "fields": {
       "stop_name": "San Pedro Street Station",
@@ -187,7 +187,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80120,
     "fields": {
       "stop_name": "Grand / LATTC Station",
@@ -198,7 +198,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80121,
     "fields": {
       "stop_name": "Pico Station",
@@ -209,7 +209,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80122,
     "fields": {
       "stop_name": "7th Street / Metro Center Station - Metro A & E Lines",
@@ -220,7 +220,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80123,
     "fields": {
       "stop_name": "LATTC / Ortho Institute Station",
@@ -231,7 +231,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80124,
     "fields": {
       "stop_name": "Jefferson / USC Station",
@@ -242,7 +242,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80125,
     "fields": {
       "stop_name": "Expo Park / USC Station",
@@ -253,7 +253,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80126,
     "fields": {
       "stop_name": "Expo / Vermont Station",
@@ -264,7 +264,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80127,
     "fields": {
       "stop_name": "Expo / Western Station",
@@ -275,7 +275,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80128,
     "fields": {
       "stop_name": "Expo / Crenshaw E-Line Station",
@@ -286,7 +286,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80129,
     "fields": {
       "stop_name": "Farmdale Station",
@@ -297,7 +297,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80130,
     "fields": {
       "stop_name": "Expo / La Brea / Ethel Bradley Station",
@@ -308,7 +308,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80131,
     "fields": {
       "stop_name": "La Cienega / Jefferson Station",
@@ -319,7 +319,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80132,
     "fields": {
       "stop_name": "Culver City Station",
@@ -330,7 +330,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80133,
     "fields": {
       "stop_name": "Palms Station",
@@ -341,7 +341,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80134,
     "fields": {
       "stop_name": "Westwood / Rancho Park Station",
@@ -352,7 +352,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80135,
     "fields": {
       "stop_name": "Expo / Sepulveda Station",
@@ -363,7 +363,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80136,
     "fields": {
       "stop_name": "Expo / Bundy Station",
@@ -374,7 +374,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80137,
     "fields": {
       "stop_name": "26th Street / Bergamot Station",
@@ -385,7 +385,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80138,
     "fields": {
       "stop_name": "17th Street / SMC Station",
@@ -396,7 +396,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80139,
     "fields": {
       "stop_name": "Downtown Santa Monica Station",
@@ -407,7 +407,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80153,
     "fields": {
       "stop_name": "1st Street Station",
@@ -418,7 +418,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80154,
     "fields": {
       "stop_name": "5th Street Station",
@@ -429,7 +429,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80201,
     "fields": {
       "stop_name": "North Hollywood Station",
@@ -440,7 +440,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80202,
     "fields": {
       "stop_name": "Universal / Studio City Station",
@@ -451,7 +451,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80203,
     "fields": {
       "stop_name": "Hollywood / Highland Station",
@@ -462,7 +462,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80204,
     "fields": {
       "stop_name": "Hollywood / Vine Station",
@@ -473,7 +473,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80205,
     "fields": {
       "stop_name": "Hollywood / Western Station",
@@ -484,7 +484,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80206,
     "fields": {
       "stop_name": "Vermont / Sunset Station",
@@ -495,7 +495,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80207,
     "fields": {
       "stop_name": "Vermont / Santa Monica Station",
@@ -506,7 +506,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80208,
     "fields": {
       "stop_name": "Vermont / Beverly Station",
@@ -517,7 +517,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80209,
     "fields": {
       "stop_name": "Wilshire / Vermont Station",
@@ -528,7 +528,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80210,
     "fields": {
       "stop_name": "Westlake / MacArthur Park Station",
@@ -539,7 +539,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80211,
     "fields": {
       "stop_name": "7th Street / Metro Center Station - Metro B & D Lines",
@@ -550,7 +550,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80212,
     "fields": {
       "stop_name": "Pershing Square Station",
@@ -561,7 +561,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80213,
     "fields": {
       "stop_name": "Civic Center / Grand Park Station",
@@ -572,7 +572,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80214,
     "fields": {
       "stop_name": "Union Station - Metro B & D Lines",
@@ -583,7 +583,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80215,
     "fields": {
       "stop_name": "Wilshire / Normandie Station",
@@ -594,7 +594,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80216,
     "fields": {
       "stop_name": "Wilshire / Western Station",
@@ -605,7 +605,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80301,
     "fields": {
       "stop_name": "Redondo Beach Station",
@@ -616,7 +616,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80302,
     "fields": {
       "stop_name": "Douglas Station",
@@ -627,7 +627,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80303,
     "fields": {
       "stop_name": "El Segundo Station",
@@ -638,7 +638,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80304,
     "fields": {
       "stop_name": "Mariposa Station",
@@ -649,7 +649,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80305,
     "fields": {
       "stop_name": "Aviation / Imperial Station",
@@ -660,7 +660,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80306,
     "fields": {
       "stop_name": "Hawthorne / Lennox Station",
@@ -671,7 +671,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80307,
     "fields": {
       "stop_name": "Crenshaw C-Line Station",
@@ -682,7 +682,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80308,
     "fields": {
       "stop_name": "Vermont / Athens Station",
@@ -693,7 +693,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80309,
     "fields": {
       "stop_name": "Harbor Freeway Station",
@@ -704,7 +704,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80310,
     "fields": {
       "stop_name": "Avalon Station",
@@ -715,7 +715,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80311,
     "fields": {
       "stop_name": "Willowbrook - Rosa Parks Station - Metro C-Line",
@@ -726,7 +726,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80312,
     "fields": {
       "stop_name": "Lynwood Station",
@@ -737,7 +737,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80313,
     "fields": {
       "stop_name": "Lakewood Blvd Station",
@@ -748,7 +748,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80314,
     "fields": {
       "stop_name": "Norwalk Station",
@@ -759,7 +759,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80401,
     "fields": {
       "stop_name": "Atlantic Station",
@@ -770,7 +770,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80402,
     "fields": {
       "stop_name": "East LA Civic Center Station",
@@ -781,7 +781,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80403,
     "fields": {
       "stop_name": "Maravilla Station",
@@ -792,7 +792,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80404,
     "fields": {
       "stop_name": "Indiana Station",
@@ -803,7 +803,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80405,
     "fields": {
       "stop_name": "Soto Station",
@@ -814,7 +814,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80406,
     "fields": {
       "stop_name": "Mariachi Plaza / Boyle Heights Station",
@@ -825,7 +825,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80407,
     "fields": {
       "stop_name": "Pico / Aliso Station",
@@ -836,7 +836,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80409,
     "fields": {
       "stop_name": "Union Station - Metro A-Line",
@@ -847,7 +847,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80410,
     "fields": {
       "stop_name": "Chinatown Station",
@@ -858,7 +858,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80411,
     "fields": {
       "stop_name": "Lincoln Heights / Cypress Park Station",
@@ -869,7 +869,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80412,
     "fields": {
       "stop_name": "Heritage Square / Arroyo Station",
@@ -880,7 +880,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80413,
     "fields": {
       "stop_name": "Southwest Museum Station",
@@ -891,7 +891,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80414,
     "fields": {
       "stop_name": "Highland Park Station",
@@ -902,7 +902,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80415,
     "fields": {
       "stop_name": "South Pasadena Station",
@@ -913,7 +913,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80416,
     "fields": {
       "stop_name": "Fillmore Station",
@@ -924,7 +924,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80417,
     "fields": {
       "stop_name": "Del Mar Station",
@@ -935,7 +935,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80418,
     "fields": {
       "stop_name": "Memorial Park Station",
@@ -946,7 +946,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80419,
     "fields": {
       "stop_name": "Lake Station",
@@ -957,7 +957,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80420,
     "fields": {
       "stop_name": "Allen Station",
@@ -968,7 +968,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80421,
     "fields": {
       "stop_name": "Sierra Madre Villa Station",
@@ -979,7 +979,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80422,
     "fields": {
       "stop_name": "Arcadia Station",
@@ -990,7 +990,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80423,
     "fields": {
       "stop_name": "Monrovia Station",
@@ -1001,7 +1001,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80424,
     "fields": {
       "stop_name": "Duarte / City of Hope Station",
@@ -1012,7 +1012,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80425,
     "fields": {
       "stop_name": "Irwindale Station",
@@ -1023,7 +1023,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80426,
     "fields": {
       "stop_name": "Azusa Downtown Station",
@@ -1034,7 +1034,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80427,
     "fields": {
       "stop_name": "APU / Citrus College Station",
@@ -1045,7 +1045,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80701,
     "fields": {
       "stop_name": "Aviation / Century Station",
@@ -1056,7 +1056,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80702,
     "fields": {
       "stop_name": "LAX / Metro Transit Center",
@@ -1067,7 +1067,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80703,
     "fields": {
       "stop_name": "Westchester / Veterans Station",
@@ -1078,7 +1078,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80704,
     "fields": {
       "stop_name": "Downtown Inglewood Station",
@@ -1089,7 +1089,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80705,
     "fields": {
       "stop_name": "Fairview Heights Station",
@@ -1100,7 +1100,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80706,
     "fields": {
       "stop_name": "Hyde Park Station",
@@ -1111,7 +1111,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80707,
     "fields": {
       "stop_name": "Leimert Park Station",
@@ -1122,7 +1122,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80708,
     "fields": {
       "stop_name": "Martin Luther King Jr Station",
@@ -1133,7 +1133,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 80709,
     "fields": {
       "stop_name": "Expo / Crenshaw K-Line Station",
@@ -1144,7 +1144,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 81401,
     "fields": {
       "stop_name": "Grand Ave Arts / Bunker Hill Station",
@@ -1155,7 +1155,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 81402,
     "fields": {
       "stop_name": "Historic Broadway Station",
@@ -1166,7 +1166,7 @@
     }
   },
   {
-    "model": "rail.stations",
+    "model": "rail.station",
     "pk": 81403,
     "fields": {
       "stop_name": "Little Tokyo / Arts District Station",
