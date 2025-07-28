@@ -17,9 +17,11 @@
         <ul class="lines">
             {% for line in lines %}
             <li>
-                <img src="{{ line.iconography_url }}">
+                <a href="{{ line.pdf_file_url }}" target="_blank">
+                <img src="{{ line.iconography_url }}" />
                 <h3>{{ line.route_code }}</h3>
-                {{ line.description }}
+                <p>{{ line.description }}</p>
+                </a>
             </li>
             {% endfor %}
         </ul>

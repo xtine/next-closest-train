@@ -1,26 +1,42 @@
 /* Rail site styles */
 
- .container {
+.container {
     width: 600px;
     padding: 25px;
     margin: auto;
  }
 
- .lines {
+.lines {
     list-style-type: none;
     padding: 0;
- }
-
-.lines h3 {
-    padding-top: 5px;    
-    margin-bottom: 10px;
 }
 
- .lines img {
+.lines li {
+    background-color: #eee;
+    margin: 0 0 10px 0;
+}
+
+.lines li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.lines li a:hover {
+    background-color: #ddd;
+}
+
+.lines h3 {  
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.lines img {
     width: 30px;
     height: 30px;
-    float: left;
- }
+    display: inline-block;
+}
 
 
  footer {
