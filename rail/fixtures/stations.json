@@ -1,0 +1,1179 @@
+[
+  {
+    "model": "rail.stations",
+    "pk": 80101,
+    "fields": {
+      "stop_name": "Downtown Long Beach Station",
+      "stop_lat": 33.768071,
+      "stop_lon": -118.192921,
+      "parent_station": 801,
+      "tpis_name": "Long Bch"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80102,
+    "fields": {
+      "stop_name": "Pacific Ave Station",
+      "stop_lat": 33.772258,
+      "stop_lon": -118.1937,
+      "parent_station": 801,
+      "tpis_name": "Pacific"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80105,
+    "fields": {
+      "stop_name": "Anaheim Street Station",
+      "stop_lat": 33.78183,
+      "stop_lon": -118.189384,
+      "parent_station": 801,
+      "tpis_name": "Anaheim"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80106,
+    "fields": {
+      "stop_name": "Pacific Coast Hwy Station",
+      "stop_lat": 33.78909,
+      "stop_lon": -118.189382,
+      "parent_station": 801,
+      "tpis_name": "PCH"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80107,
+    "fields": {
+      "stop_name": "Willow Street Station",
+      "stop_lat": 33.807079,
+      "stop_lon": -118.189834,
+      "parent_station": 801,
+      "tpis_name": "Willow"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80108,
+    "fields": {
+      "stop_name": "Wardlow Station",
+      "stop_lat": 33.819865,
+      "stop_lon": -118.19609,
+      "parent_station": 801,
+      "tpis_name": "Wardlow"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80109,
+    "fields": {
+      "stop_name": "Del Amo Station",
+      "stop_lat": 33.848222,
+      "stop_lon": -118.211017,
+      "parent_station": 801,
+      "tpis_name": "Del Amo"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80110,
+    "fields": {
+      "stop_name": "Artesia Station",
+      "stop_lat": 33.876082,
+      "stop_lon": -118.222503,
+      "parent_station": 801,
+      "tpis_name": "Artesia"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80111,
+    "fields": {
+      "stop_name": "Compton Station",
+      "stop_lat": 33.89749,
+      "stop_lon": -118.224249,
+      "parent_station": 801,
+      "tpis_name": "Compton"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80112,
+    "fields": {
+      "stop_name": "Willowbrook - Rosa Parks Station - Metro A-Line",
+      "stop_lat": 33.928048,
+      "stop_lon": -118.237555,
+      "parent_station": 801,
+      "tpis_name": "Willwbrk"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80113,
+    "fields": {
+      "stop_name": "103rd Street / Watts Towers  Station",
+      "stop_lat": 33.94222,
+      "stop_lon": -118.243159,
+      "parent_station": 801,
+      "tpis_name": "103rd"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80114,
+    "fields": {
+      "stop_name": "Firestone Station",
+      "stop_lat": 33.959611,
+      "stop_lon": -118.243205,
+      "parent_station": 801,
+      "tpis_name": "Firestne"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80115,
+    "fields": {
+      "stop_name": "Florence Station",
+      "stop_lat": 33.97374,
+      "stop_lon": -118.243271,
+      "parent_station": 801,
+      "tpis_name": "Florence"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80116,
+    "fields": {
+      "stop_name": "Slauson Station",
+      "stop_lat": 33.98876,
+      "stop_lon": -118.243398,
+      "parent_station": 801,
+      "tpis_name": "Slauson"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80117,
+    "fields": {
+      "stop_name": "Vernon Station",
+      "stop_lat": 34.00292,
+      "stop_lon": -118.243303,
+      "parent_station": 801,
+      "tpis_name": "Vernon"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80118,
+    "fields": {
+      "stop_name": "Washington Station",
+      "stop_lat": 34.01965,
+      "stop_lon": -118.243084,
+      "parent_station": 801,
+      "tpis_name": "Washngtn"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80119,
+    "fields": {
+      "stop_name": "San Pedro Street Station",
+      "stop_lat": 34.026807,
+      "stop_lon": -118.255505,
+      "parent_station": 801,
+      "tpis_name": "S Pedro"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80120,
+    "fields": {
+      "stop_name": "Grand / LATTC Station",
+      "stop_lat": 34.033155,
+      "stop_lon": -118.269333,
+      "parent_station": 801,
+      "tpis_name": "Grand"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80121,
+    "fields": {
+      "stop_name": "Pico Station",
+      "stop_lat": 34.040735,
+      "stop_lon": -118.266118,
+      "parent_station": 801,
+      "tpis_name": "Pico"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80122,
+    "fields": {
+      "stop_name": "7th Street / Metro Center Station - Metro A & E Lines",
+      "stop_lat": 34.04861,
+      "stop_lon": -118.258822,
+      "parent_station": 801,
+      "tpis_name": "7MC"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80123,
+    "fields": {
+      "stop_name": "LATTC / Ortho Institute Station",
+      "stop_lat": 34.029112,
+      "stop_lon": -118.273603,
+      "parent_station": 801,
+      "tpis_name": "LATTC"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80124,
+    "fields": {
+      "stop_name": "Jefferson / USC Station",
+      "stop_lat": 34.022123,
+      "stop_lon": -118.278118,
+      "parent_station": 801,
+      "tpis_name": "Jeff/USC"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80125,
+    "fields": {
+      "stop_name": "Expo Park / USC Station",
+      "stop_lat": 34.018227,
+      "stop_lon": -118.285734,
+      "parent_station": 801,
+      "tpis_name": "Expo Pk"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80126,
+    "fields": {
+      "stop_name": "Expo / Vermont Station",
+      "stop_lat": 34.018245,
+      "stop_lon": -118.29154,
+      "parent_station": 801,
+      "tpis_name": "Ex/Vrmnt"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80127,
+    "fields": {
+      "stop_name": "Expo / Western Station",
+      "stop_lat": 34.018331,
+      "stop_lon": -118.30891,
+      "parent_station": 801,
+      "tpis_name": "Ex/Wstrn"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80128,
+    "fields": {
+      "stop_name": "Expo / Crenshaw E-Line Station",
+      "stop_lat": 34.022526,
+      "stop_lon": -118.335078,
+      "parent_station": 801,
+      "tpis_name": "Ex/Crnshw"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80129,
+    "fields": {
+      "stop_name": "Farmdale Station",
+      "stop_lat": 34.023981,
+      "stop_lon": -118.346095,
+      "parent_station": 801,
+      "tpis_name": "Farmdale"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80130,
+    "fields": {
+      "stop_name": "Expo / La Brea / Ethel Bradley Station",
+      "stop_lat": 34.024803,
+      "stop_lon": -118.355159,
+      "parent_station": 801,
+      "tpis_name": "Ex/LBrea"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80131,
+    "fields": {
+      "stop_name": "La Cienega / Jefferson Station",
+      "stop_lat": 34.026355,
+      "stop_lon": -118.37212,
+      "parent_station": 801,
+      "tpis_name": "LCienega"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80132,
+    "fields": {
+      "stop_name": "Culver City Station",
+      "stop_lat": 34.027896,
+      "stop_lon": -118.388986,
+      "parent_station": 801,
+      "tpis_name": "CulvrCty"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80133,
+    "fields": {
+      "stop_name": "Palms Station",
+      "stop_lat": 34.029323,
+      "stop_lon": -118.404255,
+      "parent_station": 801,
+      "tpis_name": "Palms"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80134,
+    "fields": {
+      "stop_name": "Westwood / Rancho Park Station",
+      "stop_lat": 34.036816,
+      "stop_lon": -118.424576,
+      "parent_station": 801,
+      "tpis_name": "Westwood"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80135,
+    "fields": {
+      "stop_name": "Expo / Sepulveda Station",
+      "stop_lat": 34.035408,
+      "stop_lon": -118.434234,
+      "parent_station": 801,
+      "tpis_name": "Sepulveda"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80136,
+    "fields": {
+      "stop_name": "Expo / Bundy Station",
+      "stop_lat": 34.031705,
+      "stop_lon": -118.452896,
+      "parent_station": 801,
+      "tpis_name": "Bundy"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80137,
+    "fields": {
+      "stop_name": "26th Street / Bergamot Station",
+      "stop_lat": 34.027995,
+      "stop_lon": -118.46912,
+      "parent_station": 801,
+      "tpis_name": "26th"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80138,
+    "fields": {
+      "stop_name": "17th Street / SMC Station",
+      "stop_lat": 34.023155,
+      "stop_lon": -118.480372,
+      "parent_station": 801,
+      "tpis_name": "17th/SMC"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80139,
+    "fields": {
+      "stop_name": "Downtown Santa Monica Station",
+      "stop_lat": 34.01401,
+      "stop_lon": -118.491384,
+      "parent_station": 801,
+      "tpis_name": "S Monica"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80153,
+    "fields": {
+      "stop_name": "1st Street Station",
+      "stop_lat": 33.76874,
+      "stop_lon": -118.189362,
+      "parent_station": 801,
+      "tpis_name": "1st St"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80154,
+    "fields": {
+      "stop_name": "5th Street Station",
+      "stop_lat": 33.773598,
+      "stop_lon": -118.189412,
+      "parent_station": 801,
+      "tpis_name": "5th St"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80201,
+    "fields": {
+      "stop_name": "North Hollywood Station",
+      "stop_lat": 34.168504,
+      "stop_lon": -118.376808,
+      "parent_station": 802,
+      "tpis_name": "NoHo"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80202,
+    "fields": {
+      "stop_name": "Universal / Studio City Station",
+      "stop_lat": 34.140002,
+      "stop_lon": -118.362699,
+      "parent_station": 802,
+      "tpis_name": "Univ City"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80203,
+    "fields": {
+      "stop_name": "Hollywood / Highland Station",
+      "stop_lat": 34.101547,
+      "stop_lon": -118.338549,
+      "parent_station": 802,
+      "tpis_name": "Highlnd"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80204,
+    "fields": {
+      "stop_name": "Hollywood / Vine Station",
+      "stop_lat": 34.10163,
+      "stop_lon": -118.32518,
+      "parent_station": 802,
+      "tpis_name": "HW/Vine"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80205,
+    "fields": {
+      "stop_name": "Hollywood / Western Station",
+      "stop_lat": 34.101737,
+      "stop_lon": -118.308117,
+      "parent_station": 802,
+      "tpis_name": "HW/Wstrn"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80206,
+    "fields": {
+      "stop_name": "Vermont / Sunset Station",
+      "stop_lat": 34.097708,
+      "stop_lon": -118.291756,
+      "parent_station": 802,
+      "tpis_name": "Sunset"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80207,
+    "fields": {
+      "stop_name": "Vermont / Santa Monica Station",
+      "stop_lat": 34.08991,
+      "stop_lon": -118.29173,
+      "parent_station": 802,
+      "tpis_name": "Ver/SaMo"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80208,
+    "fields": {
+      "stop_name": "Vermont / Beverly Station",
+      "stop_lat": 34.076526,
+      "stop_lon": -118.291686,
+      "parent_station": 802,
+      "tpis_name": "Beverly"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80209,
+    "fields": {
+      "stop_name": "Wilshire / Vermont Station",
+      "stop_lat": 34.062701,
+      "stop_lon": -118.290082,
+      "parent_station": 802,
+      "tpis_name": "Wil/Ver"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80210,
+    "fields": {
+      "stop_name": "Westlake / MacArthur Park Station",
+      "stop_lat": 34.056368,
+      "stop_lon": -118.274879,
+      "parent_station": 802,
+      "tpis_name": "Westlake"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80211,
+    "fields": {
+      "stop_name": "7th Street / Metro Center Station - Metro B & D Lines",
+      "stop_lat": 34.048634,
+      "stop_lon": -118.258682,
+      "parent_station": 801,
+      "tpis_name": "7MC"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80212,
+    "fields": {
+      "stop_name": "Pershing Square Station",
+      "stop_lat": 34.049316,
+      "stop_lon": -118.251259,
+      "parent_station": 802,
+      "tpis_name": "Persh Sq"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80213,
+    "fields": {
+      "stop_name": "Civic Center / Grand Park Station",
+      "stop_lat": 34.0549,
+      "stop_lon": -118.246057,
+      "parent_station": 802,
+      "tpis_name": "Civic Ctr"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80214,
+    "fields": {
+      "stop_name": "Union Station - Metro B & D Lines",
+      "stop_lat": 34.056197,
+      "stop_lon": -118.234249,
+      "parent_station": 802,
+      "tpis_name": "UnionSta"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80215,
+    "fields": {
+      "stop_name": "Wilshire / Normandie Station",
+      "stop_lat": 34.061753,
+      "stop_lon": -118.301458,
+      "parent_station": 802,
+      "tpis_name": "Wil/Norm"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80216,
+    "fields": {
+      "stop_name": "Wilshire / Western Station",
+      "stop_lat": 34.061689,
+      "stop_lon": -118.308756,
+      "parent_station": 802,
+      "tpis_name": "Wil/Wstrn"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80301,
+    "fields": {
+      "stop_name": "Redondo Beach Station",
+      "stop_lat": 33.89464,
+      "stop_lon": -118.369196,
+      "parent_station": 803,
+      "tpis_name": "Redondo"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80302,
+    "fields": {
+      "stop_name": "Douglas Station",
+      "stop_lat": 33.905299,
+      "stop_lon": -118.383113,
+      "parent_station": 803,
+      "tpis_name": "Douglas"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80303,
+    "fields": {
+      "stop_name": "El Segundo Station",
+      "stop_lat": 33.916063,
+      "stop_lon": -118.386539,
+      "parent_station": 803,
+      "tpis_name": "El Sgndo"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80304,
+    "fields": {
+      "stop_name": "Mariposa Station",
+      "stop_lat": 33.9232,
+      "stop_lon": -118.387572,
+      "parent_station": 803,
+      "tpis_name": "Mariposa"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80305,
+    "fields": {
+      "stop_name": "Aviation / Imperial Station",
+      "stop_lat": 33.929621,
+      "stop_lon": -118.377134,
+      "parent_station": 803,
+      "tpis_name": "Aviation"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80306,
+    "fields": {
+      "stop_name": "Hawthorne / Lennox Station",
+      "stop_lat": 33.933408,
+      "stop_lon": -118.351602,
+      "parent_station": 803,
+      "tpis_name": "Haw/Lenx"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80307,
+    "fields": {
+      "stop_name": "Crenshaw C-Line Station",
+      "stop_lat": 33.925201,
+      "stop_lon": -118.32655,
+      "parent_station": 803,
+      "tpis_name": "Crenshaw"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80308,
+    "fields": {
+      "stop_name": "Vermont / Athens Station",
+      "stop_lat": 33.928683,
+      "stop_lon": -118.291733,
+      "parent_station": 803,
+      "tpis_name": "Ver/Ath"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80309,
+    "fields": {
+      "stop_name": "Harbor Freeway Station",
+      "stop_lat": 33.928714,
+      "stop_lon": -118.2811,
+      "parent_station": 803,
+      "tpis_name": "Harbor"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80310,
+    "fields": {
+      "stop_name": "Avalon Station",
+      "stop_lat": 33.927465,
+      "stop_lon": -118.265217,
+      "parent_station": 803,
+      "tpis_name": "Avalon"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80311,
+    "fields": {
+      "stop_name": "Willowbrook - Rosa Parks Station - Metro C-Line",
+      "stop_lat": 33.928258,
+      "stop_lon": -118.238052,
+      "parent_station": 801,
+      "tpis_name": "Willwbrk"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80312,
+    "fields": {
+      "stop_name": "Lynwood Station",
+      "stop_lat": 33.92488,
+      "stop_lon": -118.209945,
+      "parent_station": 803,
+      "tpis_name": "Lynwood"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80313,
+    "fields": {
+      "stop_name": "Lakewood Blvd Station",
+      "stop_lat": 33.91307,
+      "stop_lon": -118.1406,
+      "parent_station": 803,
+      "tpis_name": "Lakewood"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80314,
+    "fields": {
+      "stop_name": "Norwalk Station",
+      "stop_lat": 33.914033,
+      "stop_lon": -118.104717,
+      "parent_station": 803,
+      "tpis_name": "Norwalk"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80401,
+    "fields": {
+      "stop_name": "Atlantic Station",
+      "stop_lat": 34.033398,
+      "stop_lon": -118.154469,
+      "parent_station": 804,
+      "tpis_name": "East LA"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80402,
+    "fields": {
+      "stop_name": "East LA Civic Center Station",
+      "stop_lat": 34.033364,
+      "stop_lon": -118.161206,
+      "parent_station": 804,
+      "tpis_name": "ELACC"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80403,
+    "fields": {
+      "stop_name": "Maravilla Station",
+      "stop_lat": 34.033319,
+      "stop_lon": -118.16814,
+      "parent_station": 804,
+      "tpis_name": "Mravilla"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80404,
+    "fields": {
+      "stop_name": "Indiana Station",
+      "stop_lat": 34.0343,
+      "stop_lon": -118.192182,
+      "parent_station": 804,
+      "tpis_name": "Indiana"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80405,
+    "fields": {
+      "stop_name": "Soto Station",
+      "stop_lat": 34.043747,
+      "stop_lon": -118.210061,
+      "parent_station": 804,
+      "tpis_name": "Soto"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80406,
+    "fields": {
+      "stop_name": "Mariachi Plaza / Boyle Heights Station",
+      "stop_lat": 34.047215,
+      "stop_lon": -118.219648,
+      "parent_station": 804,
+      "tpis_name": "Mariachi"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80407,
+    "fields": {
+      "stop_name": "Pico / Aliso Station",
+      "stop_lat": 34.047634,
+      "stop_lon": -118.22594,
+      "parent_station": 804,
+      "tpis_name": "Pi/Aliso"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80409,
+    "fields": {
+      "stop_name": "Union Station - Metro A-Line",
+      "stop_lat": 34.056061,
+      "stop_lon": -118.234759,
+      "parent_station": 802,
+      "tpis_name": "UnionSta"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80410,
+    "fields": {
+      "stop_name": "Chinatown Station",
+      "stop_lat": 34.063861,
+      "stop_lon": -118.23584,
+      "parent_station": 804,
+      "tpis_name": "Chinatwn"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80411,
+    "fields": {
+      "stop_name": "Lincoln Heights / Cypress Park Station",
+      "stop_lat": 34.080949,
+      "stop_lon": -118.220429,
+      "parent_station": 804,
+      "tpis_name": "Linc/Cyp"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80412,
+    "fields": {
+      "stop_name": "Heritage Square / Arroyo Station",
+      "stop_lat": 34.087227,
+      "stop_lon": -118.213213,
+      "parent_station": 804,
+      "tpis_name": "Hrtge Sq"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80413,
+    "fields": {
+      "stop_name": "Southwest Museum Station",
+      "stop_lat": 34.098243,
+      "stop_lon": -118.206712,
+      "parent_station": 804,
+      "tpis_name": "SW Mus"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80414,
+    "fields": {
+      "stop_name": "Highland Park Station",
+      "stop_lat": 34.111179,
+      "stop_lon": -118.192606,
+      "parent_station": 804,
+      "tpis_name": "Highl Pk"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80415,
+    "fields": {
+      "stop_name": "South Pasadena Station",
+      "stop_lat": 34.115186,
+      "stop_lon": -118.157886,
+      "parent_station": 804,
+      "tpis_name": "So Pas"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80416,
+    "fields": {
+      "stop_name": "Fillmore Station",
+      "stop_lat": 34.133521,
+      "stop_lon": -118.148126,
+      "parent_station": 804,
+      "tpis_name": "Fillmore"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80417,
+    "fields": {
+      "stop_name": "Del Mar Station",
+      "stop_lat": 34.14191,
+      "stop_lon": -118.148214,
+      "parent_station": 804,
+      "tpis_name": "Del Mar"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80418,
+    "fields": {
+      "stop_name": "Memorial Park Station",
+      "stop_lat": 34.148356,
+      "stop_lon": -118.147512,
+      "parent_station": 804,
+      "tpis_name": "Mem Pk"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80419,
+    "fields": {
+      "stop_name": "Lake Station",
+      "stop_lat": 34.151806,
+      "stop_lon": -118.13139,
+      "parent_station": 804,
+      "tpis_name": "Lake"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80420,
+    "fields": {
+      "stop_name": "Allen Station",
+      "stop_lat": 34.152417,
+      "stop_lon": -118.114348,
+      "parent_station": 804,
+      "tpis_name": "Allen"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80421,
+    "fields": {
+      "stop_name": "Sierra Madre Villa Station",
+      "stop_lat": 34.147752,
+      "stop_lon": -118.081212,
+      "parent_station": 804,
+      "tpis_name": "Pasadena"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80422,
+    "fields": {
+      "stop_name": "Arcadia Station",
+      "stop_lat": 34.14286,
+      "stop_lon": -118.029199,
+      "parent_station": 804,
+      "tpis_name": "Arcadia"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80423,
+    "fields": {
+      "stop_name": "Monrovia Station",
+      "stop_lat": 34.133155,
+      "stop_lon": -118.003473,
+      "parent_station": 804,
+      "tpis_name": "Monrovia"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80424,
+    "fields": {
+      "stop_name": "Duarte / City of Hope Station",
+      "stop_lat": 34.132518,
+      "stop_lon": -117.96768,
+      "parent_station": 804,
+      "tpis_name": "Duarte"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80425,
+    "fields": {
+      "stop_name": "Irwindale Station",
+      "stop_lat": 34.129048,
+      "stop_lon": -117.932506,
+      "parent_station": 804,
+      "tpis_name": "Irwndale"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80426,
+    "fields": {
+      "stop_name": "Azusa Downtown Station",
+      "stop_lat": 34.135863,
+      "stop_lon": -117.906631,
+      "parent_station": 804,
+      "tpis_name": "Azusa DT"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80427,
+    "fields": {
+      "stop_name": "APU / Citrus College Station",
+      "stop_lat": 34.136814,
+      "stop_lon": -117.891636,
+      "parent_station": 804,
+      "tpis_name": "Azusa"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80701,
+    "fields": {
+      "stop_name": "Aviation / Century Station",
+      "stop_lat": 33.94557205,
+      "stop_lon": -118.378683,
+      "parent_station": 807,
+      "tpis_name": "Avia/Cen"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80702,
+    "fields": {
+      "stop_name": "LAX / Metro Transit Center",
+      "stop_lat": 33.9500753,
+      "stop_lon": -118.37866,
+      "parent_station": 807,
+      "tpis_name": "AMC"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80703,
+    "fields": {
+      "stop_name": "Westchester / Veterans Station",
+      "stop_lat": 33.96203144,
+      "stop_lon": -118.374378,
+      "parent_station": 807,
+      "tpis_name": "West/Vet"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80704,
+    "fields": {
+      "stop_name": "Downtown Inglewood Station",
+      "stop_lat": 33.96715635,
+      "stop_lon": -118.3514966,
+      "parent_station": 807,
+      "tpis_name": "Inglewood"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80705,
+    "fields": {
+      "stop_name": "Fairview Heights Station",
+      "stop_lat": 33.97525155,
+      "stop_lon": -118.3360716,
+      "parent_station": 807,
+      "tpis_name": "Fairview"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80706,
+    "fields": {
+      "stop_name": "Hyde Park Station",
+      "stop_lat": 33.98818653,
+      "stop_lon": -118.3308158,
+      "parent_station": 807,
+      "tpis_name": "Hyde Park"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80707,
+    "fields": {
+      "stop_name": "Leimert Park Station",
+      "stop_lat": 34.00390927,
+      "stop_lon": -118.3320162,
+      "parent_station": 807,
+      "tpis_name": "Leimert"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80708,
+    "fields": {
+      "stop_name": "Martin Luther King Jr Station",
+      "stop_lat": 34.00956339,
+      "stop_lon": -118.3353594,
+      "parent_station": 807,
+      "tpis_name": "MLK"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 80709,
+    "fields": {
+      "stop_name": "Expo / Crenshaw K-Line Station",
+      "stop_lat": 34.02215554,
+      "stop_lon": -118.3348508,
+      "parent_station": 807,
+      "tpis_name": "Crnshw/Ex"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 81401,
+    "fields": {
+      "stop_name": "Grand Ave Arts / Bunker Hill Station",
+      "stop_lat": 34.05472448,
+      "stop_lon": -118.2515307,
+      "parent_station": 814,
+      "tpis_name": "GrandAve"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 81402,
+    "fields": {
+      "stop_name": "Historic Broadway Station",
+      "stop_lat": 34.05215607,
+      "stop_lon": -118.2463211,
+      "parent_station": 814,
+      "tpis_name": "Broadway"
+    }
+  },
+  {
+    "model": "rail.stations",
+    "pk": 81403,
+    "fields": {
+      "stop_name": "Little Tokyo / Arts District Station",
+      "stop_lat": 34.04884524,
+      "stop_lon": -118.2387567,
+      "parent_station": 814,
+      "tpis_name": "L Tokyo"
+    }
+  }
+]
