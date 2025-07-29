@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class rail_lines(models.Model):
     line_id = models.IntegerField()
     route_code = models.CharField(max_length=100)
@@ -15,12 +16,13 @@ class rail_lines(models.Model):
     description_1 = models.CharField(max_length=100)
     travel_direction_0 = models.CharField(max_length=100)
     travel_direction_1 = models.CharField(max_length=100)
-    
+
     class Meta:
         verbose_name_plural = "Rail Lines"
 
     def __str__(self):
         return self.route_code
+
 
 class station(models.Model):
     stop_name = models.CharField(max_length=100)
@@ -31,5 +33,3 @@ class station(models.Model):
 
     def __str__(self):
         return self.stop_name
-
-

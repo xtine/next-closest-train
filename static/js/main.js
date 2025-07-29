@@ -1,4 +1,4 @@
-// Simple native JavaScript function to get the user's location.
+// Native JavaScript method to get the user's location.
 //
 // https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API/Using_the_Geolocation_API#examples
 //
@@ -13,12 +13,13 @@ function geolocateUser() {
   function success(position) {
 
     const coordinates = {
-        lat: position.coords.latitude,
-        lon: position.coords.longitude,
-        lat_short: Number((position.coords.latitude).toFixed(2)),
-        lon_short: Number((position.coords.longitude).toFixed(2))
+      lat: position.coords.latitude,
+      lon: position.coords.longitude,
+      lat_short: Number((position.coords.latitude).toFixed(2)),
+      lon_short: Number((position.coords.longitude).toFixed(2))
     }
 
+    // hidden input token
     const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
 
     status.textContent = "";
@@ -31,12 +32,12 @@ function geolocateUser() {
     // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
     //
     fetch('/', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'X-CSRFToken': csrftoken
-        },
-        body: JSON.stringify(coordinates)
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRFToken': csrftoken
+      },
+      body: JSON.stringify(coordinates)
     })
   }
 

@@ -4,31 +4,31 @@
 
 {% block content %}
 
-    <div class="container">
-        
-        <h1>Where's my closest Metro Rail Station?</h1>
+<div class="container">
 
-        <p>A handy way to find your closest rail station.</p>
+    <h1>Where's my closest Metro Rail Station?</h1>
 
-        <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
-        <button id="user-location" class="usa-button">Locate Me</button>
-        <p id="user-location-status"></p>
-        <a id="map-link" target="_blank"></a>
+    <p>A handy way to find your closest rail station.</p>
 
-        <h2>List of LA Metro Rail Lines</h2>
+    <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+    <button id="user-location" class="usa-button">Locate Me</button>
+    <p id="user-location-status"></p>
+    <a id="map-link" target="_blank"></a>
 
-        <ul class="lines">
-            {% for line in lines %}
-            <li>
-                <a href="{{ line.pdf_file_url }}" target="_blank">
+    <h2>List of LA Metro Rail Lines</h2>
+
+    <ul class="lines">
+        {% for line in lines %}
+        <li>
+            <a href="{{ line.pdf_file_url }}" target="_blank">
                 <img src="{{ line.iconography_url }}" />
                 <h3>{{ line.route_code }}</h3>
                 <p>{{ line.description }}</p>
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 
-    </div>
+</div>
 
 {% endblock %}
