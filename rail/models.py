@@ -26,8 +26,8 @@ class rail_lines(models.Model):
 
 class station(models.Model):
     stop_name = models.CharField(max_length=100)
-    stop_lat = models.DecimalField(max_digits=9, decimal_places=6)
-    stop_lon = models.DecimalField(max_digits=9, decimal_places=6)
+    stop_lat = models.FloatField()
+    stop_lon = models.FloatField()
     parent_station = models.IntegerField()
     tpis_name = models.CharField(max_length=100)
 

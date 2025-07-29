@@ -6,14 +6,22 @@
 
 <div class="container">
 
+
     <h1>Where's my closest Metro Rail Station?</h1>
 
     <p>A handy way to find your closest rail station.</p>
 
-    <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
-    <button id="user-location" class="usa-button">Locate Me</button>
-    <p id="user-location-status"></p>
-    <a id="map-link" target="_blank"></a>
+    <div class="user-locator">
+
+        <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+        <button id="user-location" class="usa-button">Locate Me</button>
+        <div class="user-location-status"></div>
+        <div class="user-location-info">
+            Your closest station is the <span class="user-location-station"></span>, serving the <span
+                class="user-location-line"></span>.
+        </div>
+
+    </div>
 
     <h2>List of LA Metro Rail Lines</h2>
 

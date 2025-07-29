@@ -1,9 +1,28 @@
 /* Rail site styles */
 
 .container {
-    width: 600px;
+    width: 900px;
     padding: 25px;
     margin: auto;
+}
+
+.user-locator {
+    padding: 0 0 20px 0;
+    border-bottom: dotted 1px #ccc;
+}
+
+.user-location-info {
+    font-size: 1.5em;
+    padding: 20px 0;
+    display: none;
+}
+
+.user-location-station {
+    font-weight: bold;
+}
+
+.user-location-line {
+    font-style: italic;
 }
 
 .lines {
@@ -13,7 +32,9 @@
 
 .lines li {
     background-color: #eee;
+    border-radius: 3px;
     margin: 0 0 10px 0;
+    padding: 10px;
 }
 
 .lines li a {
@@ -28,7 +49,9 @@
 }
 
 .lines h3 {
-    margin-bottom: 10px;
+    margin: 0;
+    padding: 5px;
+    vertical-align: top;
     display: inline-block;
 }
 
@@ -38,6 +61,9 @@
     display: inline-block;
 }
 
+.lines p {
+    font-size: 1.2em;
+}
 
 footer {
     border-top: 1px dotted #ccc;

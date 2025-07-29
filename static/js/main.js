@@ -4,11 +4,10 @@
 //
 
 function geolocateUser() {
-  const status = document.querySelector("#user-location-status");
-  const mapLink = document.querySelector("#map-link");
-
-  mapLink.href = "";
-  mapLink.textContent = "";
+  const status = document.querySelector(".user-location-status");
+  const userLocationInfo = document.querySelector(".user-location-info");
+  const userLocationStation = document.querySelector(".user-location-station");
+  const userLocationLine = document.querySelector(".user-location-line");
 
   function success(position) {
 
@@ -24,9 +23,7 @@ function geolocateUser() {
 
     status.textContent = "";
 
-    mapLink.href = `https://www.openstreetmap.org/#map=18/${coordinates.lat}/${coordinates.lon}`;
-
-    mapLink.textContent = `Your coordinates: ${coordinates.lat_short} °, ${coordinates.lon_short} °`;
+    // mapLink.textContent = `Your coordinates: ${coordinates.lat_short} °, ${coordinates.lon_short} °`;
 
     // send coordinates to view to grab nearest station
     // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
@@ -39,6 +36,15 @@ function geolocateUser() {
       },
       body: JSON.stringify(coordinates)
     })
+      .then(response => response.json())
+      .then(user_station => {
+        userLocationInfo.style.display = 'block';
+
+        userLocationStation.textContent = user_station.stop_name;
+
+        userLocationLine.textContent = user_station.parent_station
+      })
+
   }
 
   function error() {
