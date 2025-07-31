@@ -21,7 +21,7 @@ function geolocateUser() {
     // hidden input token
     const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
 
-    status.textContent = "";
+    status.style.display = 'none';
 
     // mapLink.textContent = `Your coordinates: ${coordinates.lat_short} °, ${coordinates.lon_short} °`;
 
@@ -50,13 +50,16 @@ function geolocateUser() {
   }
 
   function error() {
-    status.textContent = "Unable to retrieve your location";
+    status.style.display = 'block';
+    status.textContent = "Unfortunately, we were not able to retrieve your location.";
   }
 
   if (!navigator.geolocation) {
-    status.textContent = "Geolocation is not supported by your browser";
+    status.style.display = 'block';
+    status.textContent = "Geolocation is not supported by your browser.";
   } else {
-    status.textContent = "Locating…";
+    status.style.display = 'block';
+    status.textContent = "Locating...";
     navigator.geolocation.getCurrentPosition(success, error);
   }
 }
