@@ -66,6 +66,9 @@ function geolocateUser() {
 
         userLocationLine.textContent = user_station.parent_station
 
+        // reset time stop data for multiple "locate me" queries
+        userStopTimes.textContent = ''
+
         const stop_times = user_station.stop_times
 
         stop_times.forEach(stop => {
