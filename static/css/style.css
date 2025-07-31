@@ -1,11 +1,5 @@
 /* Rail site styles */
 
-.container {
-    width: 900px;
-    padding: 25px;
-    margin: auto;
-}
-
 .user-locator {
     padding: 0 0 20px 0;
     border-bottom: dotted 1px #ccc;
