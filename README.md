@@ -25,7 +25,7 @@ python manage.py loaddata rail/fixtures/*.json
 ```
 Make sure you set environment variables for your local environment:
 ```
-export DJANGO_SECRET_KEY=set-a-long=and=secure-secret-key-phrase-here
+export DJANGO_SECRET_KEY=set-a-long-and-secure-secret-key-phrase-here
 
 export DEBUG=True
 
