@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.forms import model_to_dict
 
-from .models import rail_lines, station
+from .models import rail_lines, station, StopTime
 
 import json
 import numpy as np
@@ -32,7 +32,8 @@ def index(request):
         distances = np.linalg.norm(station_coordinates_np - user_coordinates_np, axis=1)
         min_index = np.argmin(distances)
 
-        # get object of closest station
+        # get object of closest station and convert to dictionary to return
+
         user_station = model_to_dict(
             station.objects.get(
                 stop_lat=station_coordinates_np[min_index][0],
@@ -40,7 +41,12 @@ def index(request):
             )
         )
 
-        # Convert Django object to dict to return
+        # stop_time = model_to_dict(StopTime.objects.filter(stop_id=user_station["id"]))
+
+        # print(stop_time)
+
+        # print(user_station)
+
         user_station["parent_station"] = str(
             rail_lines.objects.get(line_id=user_station["parent_station"])
         )

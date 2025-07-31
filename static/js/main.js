@@ -40,6 +40,8 @@ function geolocateUser() {
       .then(user_station => {
         userLocationInfo.style.display = 'block';
 
+        console.log(user_station)
+
         userLocationStation.textContent = user_station.stop_name;
 
         userLocationLine.textContent = user_station.parent_station

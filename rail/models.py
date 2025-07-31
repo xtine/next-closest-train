@@ -33,3 +33,13 @@ class station(models.Model):
 
     def __str__(self):
         return self.stop_name
+
+
+class StopTime(models.Model):
+    arrival_time = models.CharField(max_length=100)
+    departure_time = models.CharField(max_length=100)
+    stop_id = models.IntegerField()
+    stop_sequence = models.IntegerField()
+    stop_headsign = models.CharField(max_length=255)
+    pickup_type = models.IntegerField()
+    drop_off_type = models.IntegerField()
