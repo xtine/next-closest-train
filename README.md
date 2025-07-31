@@ -23,6 +23,10 @@ Load database and fixtures
 python manage.py migrate
 python manage.py loaddata rail/fixtures/*.json
 ```
+Test files
+```
+python manage.py test
+```
 Run the server
 ```
 python manage.py runserver
@@ -68,6 +72,7 @@ I like to develop in an agile fashion, always progressing with interable demos s
 
 ### Future Iterations
 Ideally, these are also the other considerations and enhancements for the app:
+- More substational Python/Django unit tests
 - JavaScript unit tests
 - PlayWright tests (regression tests)
 - Fallback for user location
