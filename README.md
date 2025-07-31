@@ -23,6 +23,14 @@ Load database and fixtures
 python manage.py migrate
 python manage.py loaddata rail/fixtures/*.json
 ```
+Make sure you set environment variables for your local environment:
+```
+export DJANGO_SECRET_KEY=set-a-long=and=secure-secret-key-phrase-here
+
+export DEBUG=True
+
+export DJANGO_LOGLEVEL=DEBUG
+```
 Test files
 ```
 python manage.py test
